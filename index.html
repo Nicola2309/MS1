@@ -4,42 +4,125 @@
 <title>Bar Gelateria Oasi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7a907b57fb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" 
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
 <header>
 
-<a href="index.html">
-         <h2 id="logo"> 
-            <a href="index.html"> <img src="https://i.imgur.com/evna7TQ.jpeg" title="source: imgur.com" /></a>
-         </h2>
-</a>
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-    <ul class="navbar-nav">
-        <li class="navbar-item">
-            <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="navbar-item">
-            <a href="#" class="nav-link">About us</a>
-        </li>
-        <li class="navbar-item">
-            <a href="#" class="nav-link">Menu</a>
-        </li>
-        <li class="navbar-item">
-            <a href="#" class="nav-link">Events</a>
-        </li>
-        <li class="navbar-item">
-            <a href="#" class="nav-link">Contacts</a>
-        </li>
-    </ul>
-</nav>
+      <div class="container-fluid">
 
+        <nav class="navbar navbar-expand-md fixed-top navbar-light" role="navigation">
+
+            <div class="col-2 d-md-none menu-toggle mt-2">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" 
+                data-target="#jesuiscollapse" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        
+
+
+        <div class="col-5 col-md-2 col-lg-2 logo">
+            <div class="navbar-brand no-stick">
+                <a href="index.html">
+                <img src="assets/img/logo.png" class="img-fluid" alt="BarOasi"></a>
+                
+            </div>
+        </div>
+
+
+        <div class="col-3 d-md-none menu-toggle mt-1 ml-auto" id="buytton">
+            <a href="menu.html" class="btn-lg btn-secondary">
+                <i class="fas fa-shopping-cart">
+                </i>
+            </a>
+        </div>
+
+        <div id="jesuiscollapse" class="navbar-collapse justify-content-end collapse"  >
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="nav-link">About us</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="nav-link">Menu&Delivery</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="nav-link">Events</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="nav-link">Contacts</a>
+            </li>
+        </ul>
+    </div>
+   </nav>
+   </div>
+    <div>
+        <img id="impact-img" src="assets/img/wonderful-ice.jpg" class="img-fluid"  alt="straweberry icecream on a plate, with berries.">
+    </div>
 </header>
+<section>
 
+
+    <h2 id="pres-par">Take a minute for youself, with us</h2>
+
+        <p class="pres-chi">The green Bar Oasi is located on the main summer walk of Bolsena, our guests love to enjoy an icecream while visiting the lake front.
+        We focused first on the method to give the highest quality and most hot-resistant product possible for an ice-cream, we obtained satisfying
+        results according to us and our guests.</p>
+
+        <p class="pres-chi">Since our opening in 2008, we searched for new ways to evolve our iceream culture, after attending different national events, 
+        in 2012 we found our first teacher, Donata Panciera,
+        globally known for her expertise, and respectful way to choose and treat ingredients. 
+        That experience changed exponencially the way we think of a new icecream flavour.</p>
+
+        <p class="pres-chi">In 2015 we were ready to renew our working style and found a perfect match in Sergio Colalucci, an italian champion of icecream making.
+        With him we gave a more modern touch to our process, we restyled the serving our glass-cups, 
+        we created cakes and different icecream with a crunchy layer outside and a soft artisan icecream inside.
+        The peak of our work with Sergio has been reached in 2019, we created a salted icecream served with apple chips, 
+        a salted biscuit outside, and Coregone inside, a local fish of our lake.
+        Our work characteristics have been deeply influenced by the encounter with Sergio Colalucci.
+        </p>
+        
+</section>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 col-sm-12">
+                <img max-width="200" max-height="100" src="assets/img/logo.png"  alt="logo" >
+            </div>
+            <div class="col-4 col-sm-12">
+                 <ul class="social-networks">
+                    <li>
+                        <a href="https://www.facebook.com/bargelateriaoasi" target="_blank"></a> <i class="fab fa-facebook-square"></i>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bar_gelateria_oasi" target="_blank"></a> <i class="fab fa-instagram-square"></i>
+                    </li>
+                    <li>
+                        <a href="contacts.html" target="_blank"></a>  <i class="fab fa-whatsapp-square"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
     
 </body>
 </html>
