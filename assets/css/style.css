@@ -5,6 +5,7 @@ body{
     color: #444;
 }
 
+
 /*------------------------------------------------------------Beloved Images*/
 #impact-img{
     display: block;
@@ -13,6 +14,15 @@ body{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#so-fresh{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 90%;
+    max-height: 400px;
+    float: left;
+    margin-left: 15px;
 }
 
 /*------------------------------------------------------------Navbar*/
@@ -50,4 +60,67 @@ body{
     padding: 0 20px;
     text-align: center;
     font-weight: 500;
+}
+.position{
+    margin: auto;
+}
+
+.icon{
+    size: 2em;
+    background:-moz-linear-gradient(top, #ec1123 40%,#f88629 75%); 
+    background: -webkit-linear-gradient(top, #ec1123 40%,#f88629 75%); 
+    background: linear-gradient(to bottom, #ec1123 40%,#f88629 75%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+.first-h{
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+}
+
+/*-------------------------------------------------------------Media-Queries*/
+
+@media screen and (max-width: 600px) {
+  #so-fresh{
+      float:none;
+      text-align: center;
+      margin: 0 auto;
+      -webkit-float:none;
+      -webkit-text-align: center;
+      -webkit-margin: 0 auto;
+      -moz-float:none;
+      -moz-text-align: center;
+      -moz-margin: 0 auto;
+      -o-float:none;
+      -o-text-align: center;
+      -o-margin: 0 auto;
+  }
+}
+
+
+
+/*-------------------------------------------------------------Footer*/
+#definitive{
+    margin-top:50px;
+    margin-left: 20px;
+}
+
+#foot-logo{
+    margin-bottom: 25px;
+    margin-left: -4px;
+}
+.space{
+margin-top: 20px;
+}
+#moreto{
+    margin-bottom: -2px;
+}
+.sochild{
+    margin-top: 40px;
+    font-size: 40px;
+
 }
