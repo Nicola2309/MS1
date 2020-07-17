@@ -24,6 +24,10 @@ body{
     float: left;
     margin-left: 15px;
 }
+#team-img{
+    display: block;
+    margin:0 auto ;
+}
 
 /*------------------------------------------------------------Navbar*/
 .logo{
@@ -99,9 +103,35 @@ body{
       -o-text-align: center;
       -o-margin: 0 auto;
   }
+  #ourstory{
+      text-align: center;
+      margin-top: 25px;
+  }
+  
 }
-
-
+@media screen and (max-width: 950px) {
+    #so-fresh{
+      float:none;
+      text-align: center;
+      margin: 0 auto;
+      -webkit-float:none;
+      -webkit-text-align: center;
+      -webkit-margin: 0 auto;
+      -moz-float:none;
+      -moz-text-align: center;
+      -moz-margin: 0 auto;
+      -o-float:none;
+      -o-text-align: center;
+      -o-margin: 0 auto;  
+}
+   #override{
+       margin-bottom: 0 !important;
+       margin-top: 15px;
+   }
+    #ourstory{
+      margin-top: 25px;
+  }
+}
 
 /*-------------------------------------------------------------Footer*/
 #definitive{
