@@ -28,6 +28,11 @@ body{
     display: block;
     margin:0 auto ;
 }
+.differs{
+    height: 400px;
+    width: 400px;
+
+}
 
 /*------------------------------------------------------------Navbar*/
 .logo{
