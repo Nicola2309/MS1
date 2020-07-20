@@ -31,7 +31,15 @@ body{
 .differs{
     height: 400px;
     width: 400px;
-
+    margin-right: 25px;
+    margin-left:25px;
+    
+}
+#takeaw{
+     display: block;   
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*------------------------------------------------------------Navbar*/
@@ -90,10 +98,18 @@ body{
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
 }
+.monty{
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
 
 /*-------------------------------------------------------------Media-Queries*/
 
 @media screen and (max-width: 600px) {
+  .first-h{
+      margin:10px 30px;
+  }
   #so-fresh{
       float:none;
       text-align: center;
@@ -111,6 +127,11 @@ body{
   #ourstory{
       text-align: center;
       margin-top: 25px;
+  }
+  #takeaw{
+      margin-left: 15px;
+      margin-right: auto;
+      max-width: 420px;
   }
   
 }
@@ -135,6 +156,9 @@ body{
    }
     #ourstory{
       margin-top: 25px;
+  }
+  .first-h{
+      margin:10px 30px;
   }
 }
 
