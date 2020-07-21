@@ -1,46 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
 body{
     font-family: Montserrat, sans-serif;
     color: #444;
 }
-
-
-/*------------------------------------------------------------Beloved Images*/
-#impact-img{
-    display: block;
-    background-size:cover; 
-    background-position: center center;   
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
-#so-fresh{
-    vertical-align: middle;
-    border-style: none;
-    max-width: 90%;
-    max-height: 400px;
-    float: left;
-    margin-left: 15px;
-}
-#team-img{
-    display: block;
-    margin:0 auto ;
-}
-.differs{
-    height: 400px;
-    width: 400px;
-    margin-right: 25px;
-    margin-left:25px;
-    
-}
-#takeaw{
-     display: block;   
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*------------------------------------------------------------Navbar*/
 .logo{
@@ -61,9 +29,69 @@ body{
 }
 
 
+/*------------------------------------------------------------Beloved Images*/
+#impact-img{
+    display: block;
+    background-size:cover; 
+    background-position: center center;   
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#so-fresh{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 90%;
+    max-height: 500px;
+}
+#team-img{
+    display: block;
+    margin:0 auto ;
+}
+.differs{
+    height: 400px;
+    width: 400px;
+    margin-right: 25px;
+    margin-left:25px;
+    
+}
+#takeaw{
+    display: block;   
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: auto;
+}
+/*.imgdiv{
+    width: 85%;
+    height: 100vh;
+
+}*/
+.delyop{
+    height: 500px;
+    width: 500px;
+    margin-right: 25px;
+    margin-left:25px;
+    
+}
 
 /*-------------------------------------------------------------Text*/
+h1,
+h2,
+h3,
+h4  {
+    color: #000;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-family: Oswald,sans-serif;
+    padding: 25px 10px;
+    letter-spacing: 0px;
+    text-transform: none;
+
+}
 
 #pres-par {
     text-align: center;
@@ -73,14 +101,19 @@ body{
     text-transform: none;
 }
 .pres-chi {
+    margin: 20px auto;
+    width: 85%;
     font-family: Montserrat, sans-serif;
-    padding: 0 20px;
     text-align: center;
     font-weight: 500;
 }
 .position{
     margin: auto;
 }
+.quotes{
+    margin-left: auto;
+    width: 85%;
+    margin-right: auto;}
 
 .icon{
     size: 2em;
@@ -103,7 +136,24 @@ body{
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
-
+.checkall{
+    font-size: 2.2em;
+    font-family: 'Righteous', cursive;
+    margin: 40px 0;
+}
+.menu1{
+    background:-moz-linear-gradient(top, #e69f51 40%,#d14046 75%); 
+    background: -webkit-linear-gradient(top, #e69f51 40%,#d14046 75%); 
+    background: linear-gradient(to bottom, #e69f51 40%,#d14046 75%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+    font-family: 'Oswald', sans-serif; ;
+    text-transform:uppercase;
+    margin:20px 0;
+    font-size: 3em;
+}
 /*-------------------------------------------------------------Media-Queries*/
 
 @media screen and (max-width: 600px) {
@@ -124,14 +174,40 @@ body{
       -o-text-align: center;
       -o-margin: 0 auto;
   }
+  #mt-creaty{
+       margin-top: 0 !important;
+   }
   #ourstory{
       text-align: center;
       margin-top: 25px;
   }
   #takeaw{
-      margin-left: 15px;
-      margin-right: auto;
-      max-width: 420px;
+      margin-left: 75px;
+      
+      width:100%;
+  }
+  .sochild{
+      clear: both;
+      display: table;
+  }
+  .first-h{
+      margin-left: 75px !important;
+  }
+  .differs{
+      margin: 15px 80px;
+  }
+  .monty{
+      font-size: 1.4em;
+    margin-left: 150px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600
+  }
+  .checkall{
+      margin-left: 150px;
+  }
+  .menu1{
+      margin-left: 150px;
+
   }
   
 }
@@ -162,10 +238,16 @@ body{
   }
 }
 
+@media screen and (min-width: 950px){
+
+
+}
+
 /*-------------------------------------------------------------Footer*/
 #definitive{
-    margin-top:50px;
-    margin-left: 20px;
+    background-color: lightgray;
+    margin-right:0 !important;
+    margin-bottom: 0 !important;
 }
 
 #foot-logo{
