@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
 body{
     font-family: Montserrat, sans-serif;
     color: #444;
@@ -134,21 +133,19 @@ h4  {
    -webkit-text-fill-color:transparent;
 }
 .first-h{
-    font-size: xx-large;
+    font-size: 2.2em;
     font-weight: 500;
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
+    margin: 40px 0;
+
 }
 .monty{
     margin-top: 20px;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
-.checkall{
-    font-size: 2.2em;
-    font-family: 'Righteous', cursive;
-    margin: 40px 0;
-}
+
 .menu1{
     background:-moz-linear-gradient(top, #e69f51 40%,#d14046 75%); 
     background: -webkit-linear-gradient(top, #e69f51 40%,#d14046 75%); 
@@ -244,109 +241,86 @@ h4  {
   .first-h{
       margin:10px 30px;
   }
+  /*----------------------------------------------Footer*/
+  #definitive{
+		font: bold 14px sans-serif;
+	}
+
+	#definitive .order,
+	#definitive .space,
+	#definitive .so-child{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	#definitive .space i{
+		margin-left: 0;
+	}
+    #moreto{
+        float: none !important;
+        text-align: center;
+    }
+    .footer-company-name{
+        text-align: center;
+    }
 }
 
-@media screen and (min-width: 1030px){
+@media screen and (min-width: 1200px){
     #impact-img{
+        width: 85%;
         height: 100vh !important;
+    }
+    .pres-chi{
+        width:85%;
+    }
+    .quotes{
+        width:85%;
+    }
+    #takeaw{
+        width: 85%;
+        height:100vh;
     }
 
 }
 
-/*-------------------------------------------------------------Footer
+/*-------------------------------------------------------------Footer*/
 #definitive{
-    background-color: lightgray;
     margin-right:0 !important;
     margin-bottom: 0 !important;
-}
-
-#foot-logo{
-    margin-bottom: 25px;
-    margin-left: -4px;
-}
-.space{
-margin-top: 20px;
-}
-.order{
-    margin-left: 5px;
-}
-#moreto{
-    margin-bottom: -2px;
-}
-.sochild{
-    margin-top: 40px;
-    font-size: 40px;
-
-}
-*/
-
-
-.footer-distributed{
-	background-color: #666;
+    background-color: #666;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 55px 50px;
 }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
+/*-------------------------------------------------------------Footer-left*/
 
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
-
-/* The company logo */
-
-.footer-distributed h3{
-    text-align: initial;
-	color:  #ffffff;
-	font-size: 36px;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  lightseagreen;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links{
+.order{
 	color:  #ffffff;
 	margin: 20px 0 12px;
-	padding: 0;
+	padding: 10px;
 }
 
-.footer-distributed .footer-links a{
+.order a{
 	display:inline-block;
 	line-height: 1.8;
-  font-weight:400;
+    font-weight:400;
 	text-decoration: none;
 	color:  inherit;
 }
-
-.footer-distributed .footer-company-name{
-	color:  #222;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+.footer-company-name{
+    padding: 10px;
 }
 
-/* Footer Center */
 
-.footer-distributed .footer-center{
-	width: 35%;
-}
+/*---------------------------------------------------------Footer-center */
 
-.footer-distributed .footer-center i{
+
+.space i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -355,111 +329,35 @@ margin-top: 20px;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 5px 10px;
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-  font-weight:400;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
-
-.footer-distributed .footer-center p a{
+.space a{
 	color:  lightseagreen;
-	text-decoration: none;;
+	text-decoration: none;
 }
 
-.footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight:300;
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
+/*-------------------------------------------------------------Footer-bottom*/
 
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
-
-/* Footer Right */
-
-.footer-distributed .footer-right{
-	width: 20%;
-}
-
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #92999f;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-	display: inline-block;
+.sochild{
+    margin-top: 15px;
+    font-size: 40px;
+    display: inline-block;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
 	border-radius: 2px;
-
-	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
 }
+
+
+
+
+
+
+
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 880px) {
-
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-
-}
