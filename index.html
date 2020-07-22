@@ -4,13 +4,6 @@
 <title>Bar Gelateria Oasi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/7a907b57fb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" 
@@ -24,7 +17,7 @@
 
       <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-md fixed-top navbar-light" role="navigation">
+        <nav id="mynav" class="navbar navbar-expand-md fixed-top navbar-light nav-colored nav-transparent" role="navigation">
 
             <div class="col-2 d-md-none menu-toggle mt-2">
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" 
@@ -51,7 +44,7 @@
         <div id="jesuiscollapse" class="navbar-collapse justify-content-end collapse"  >
             <ul class="navbar-nav">
                 <li class="navbar-item">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html" class="nav-link active">Home</a>
                 </li>
                 <li class="navbar-item">
                     <a href="aboutus.html" class="nav-link">About us</a>
@@ -67,7 +60,7 @@
                 </li>
             </ul>
         </div>
-   </nav>
+        </nav>
    </div>
     <div>
         <img id="impact-img" src="assets/img/wonderful-ice.jpg" class="img-fluid"  alt="straweberry icecream on a plate, with berries.">
@@ -103,30 +96,36 @@
                 <h2>What Makes Us Unique</h2>
             </div>
         </div>
-    <div class="container-fluid">
+    <div style="width:85%;" class="container-fluid">
         <div class="row">
-            <div class=" col-12 text-center">
+            <div class="col-12 text-center">
                 <img id="so-fresh" src="assets/img/quality-eh.jpg" alt="fresh fruit out of an icecream cone">
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center position">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
                 <div style="margin-bottom:65px;" id="override">
                     <h3 class="first-h">Quality <i class="fas fa-check-circle icon"></i></h3>
                         <p>The ingredients selection and our experience guarantee for the high quality of our icecream. </p>
                 </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
                 <div >
-                    <h3 id="mt-creaty" class="first-h">Creativity <i class="fas fa-fire-alt icon"></i></h3>
+                    <h3 class="first-h">Creativity <i class="fas fa-fire-alt icon"></i></h3>
                         <p>Everyday searching for new ways to enrich our assortment and our flaours.</p> 
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center position">
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
                 <div>
                      <h3 class="first-h">Innovation <i class="fas fa-tachometer-alt icon"></i></h3>
                         <p>Our renovated techniques serve alongside our classics, and play a central role in our 
                          more ambitious combinations distanciating our icecream from its traditional atmosphere.
                         </p> 
                 </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
                 <div>
                     <h3 class="first-h">With You <i class="fas fa-globe icon"></i></h3>
                         <p>Willing to take care of your needs, bystanders, flexible, Connected. 
@@ -134,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
     </div>
 </section>
 
@@ -184,42 +183,27 @@
 
     <div class="container-fluid">
         <div class="row mt-3">
-            <div  class="col-12">
-                <h3>Contact</h3>
+            <div class="col-12">
+                <h3 style="float:left;">More To Find Out</h3>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <p>
+                    <a class="order" href="index.html">Home</a>
+                    <a class="order" href="aboutus.html">About Us</a>
+                    <a class="order" href="menu.html">Menu&Delivery</a>
+                    <a class="order" href="contacts.html">Contacts</a>
+                </p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 		            <p class="space"><i class="fas fa-map-marker-alt"></i> Viale Cadorna 9, Bolsena. Italy</p>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
 		            <p class="space"><i class="fas fa-phone"></i> Phone: 0039 555 55 55 555</p>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
 		            <p class="space"><i class="fas fa-envelope"></i> Email: <a href="mailto:baroasi@hotmail.it">baroasi@hotmail.it</a></p>
             </div>
         </div>
-    <div class="container-fluid">
-        <div class="row mt-3">
-                    <div class="col-12">
-                        <h3 id="moreto">More to Find Out</h3>
-                    </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                        <p class="space"><a href="index.html">Home</a></p>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-122">
-                        <p class="space"><a href="aboutus.html">About Us</a></p>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                        <p class="space"><a href="menu.html">Menu&Delivery</a></p>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                        <p class="space"><a href="contacts.html">Contacts</a></p>
-            </div>
-        </div>
     </div>
+        
         <div class="row text-center mt-3 pb-2">
             <div class="col-4">
                 <a  href="https://www.facebook.com/bargelateriaoasi" target="_blank"></a> <i class="fab fa-facebook-square sochild"></i>    
@@ -232,11 +216,20 @@
                  <a  href="contacts.html" target="_blank"></a>  <i class="fab fa-whatsapp-square sochild"></i>
             </div>
                         
-         </div>
-    </div> 
+         </div> 
 
 
 </footer>
+<!------------------------------------------------js scripts------------->
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7a907b57fb.js" crossorigin="anonymous"></script>
+    <script src="myScript.js"></script>
     
 </body>
 </html>
