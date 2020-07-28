@@ -13,6 +13,7 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     
 </head>
+
 <body>
 <header>
 
@@ -54,19 +55,108 @@
                     <a href="menu.html" class="nav-link">Menu&Delivery</a>
                 </li>
                 <li class="navbar-item">
-                <a href="events.html" class="nav-link">Events</a>
-                </li>
-                <li class="navbar-item">
                     <a href="contacts.html" class="nav-link active">Contacts</a>
                 </li>
             </ul>
         </div>
       </nav>
    </div>
-    <div>
-        <img id="aboutimt" src="assets/img/aboutimg.jpg" class="img-fluid"  alt="straweberry icecream on a plate, with berries.">
-    </div>
+        <div>
+            <img id="girly" src="assets/img/woman-in-black-and-white-polka-dot--dress.jpg" class="img-fluid"  alt="Girl using phone and laptop to make an order with us">
+        </div>
+
 </header>
+
+<section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2>You know how we can help you?</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-6 col-sm-12">
+                <p class="space"><i class="fas fa-map-marker-alt"></i> Viale Cadorna 9, Bolsena. Italy</p>
+		        <p class="space"><i class="fas fa-phone"></i> Phone: 0039 555 55 55 555</p>
+		        <p class="space"><i class="fas fa-envelope"></i> Email: <a href="mailto:baroasi@hotmail.it">baroasi@hotmail.it</a></p>
+            </div>
+
+            <div class="col-6 col-sm-12">
+                
+                <p>These are our contacts where you can always find us </p>
+            
+               <p>If you have any more specific request about a party or our delivery routes you can use our form below and explain us what we can do for you, we'll get in touch asap</p>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<form>
+  <div class="container-fluid" style="margin:0 auto;">
+    <div class="row">
+        <div class="col-12">
+            <h3 style="float:left;">Where and When?</h3>
+        </div>
+    </div>
+  </div>
+    <div class="container-fluid">
+            <div class="row form-row">
+                    <div class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <input type="text" name="inputAddress" id="inputAddress" class="form-control" placeholder="Street Name and House Number*" aria-invalid="false" autocomplete="off" required>
+                    </div>
+                    <div class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <input type="text" name="Zipcode" id="Zipcode" class="form-control" placeholder="Zipcode*" aria-invalid="false" autocomplete="off" required>
+                    </div>
+                    <div class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="input-group date" id="datetimepicker11">
+                            <input type="text" class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar">
+                                    </span>
+                                </span>
+                        </div>
+                    </div>
+            </div>
+    </div>
+   <div class="container-fluid" style="marginu0 auto;">
+    <div class="row">
+        <div class="col-12">
+            <h3 style="float:left;">How can i reach you?</h3>
+        </div>
+    </div>
+   </div>
+<div class="container-fluid">
+  <div class="row form-row">
+        <div class=" form-group col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <input type="text" class="form-control" id="inputName" placeholder="Your Name*" required>
+    </div>
+        <div class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Your Email*" required>
+    </div>
+        <div class="form-group col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <input type="text" class="form-control" id="phoneNumber" placeholder="Your Phone Number*" required>
+        </div>
+  </div>
+</div>
+
+   <div class="container-fluid" style="margin:0 auto;">
+    <div class="row">
+        <div class="col-12">
+            <h3 style="float:left;">Explanation / Description</h3>
+        </div>
+    </div>
+  <div class="form-group" style="margin: 0 auto;">
+    <textarea class="form-control" id="explain" rows="5"></textarea>
+  </div>
+
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
 
 <footer id="definitive">
 
@@ -110,14 +200,19 @@
 
 
 </footer>
-    
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7a907b57fb.js" crossorigin="anonymous"></script>
     <script src="myScript.js"></script>
+    <script src="bootstrap-datetimepicker.de.js"></script>
+    
 </body>
 </html>

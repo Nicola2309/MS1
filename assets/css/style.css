@@ -74,7 +74,7 @@ body{
     margin-right: auto;
     max-height: auto;
 }
-#aboutimg{
+#about{
     display: block;   
     width: 85%;
     margin-left: auto;
@@ -92,6 +92,13 @@ body{
     margin-right: 25px;
     margin-left:25px;
     
+}
+#checkall{
+    margin: 40px auto;
+}
+
+#girly{
+    margin: 0 auto;
 }
 
 /*-------------------------------------------------------------Text*/
@@ -174,9 +181,9 @@ h4  {
 /*-------------------------------------------------------------Media-Queries*/
 
 @media screen and (max-width: 600px) {
-
   
   .first-h i{
+      padding: 0 0;
     display: table;
     margin: 0 auto !important;
 }
@@ -204,21 +211,36 @@ h4  {
 
   #takeaw{
       display: block;
-      width:80%;
+      width:85%;
   }
+  .delyop{
+      width:85%;
+      height: auto;
+      margin: 0 auto !important;
+  }
+  .differs{
+      height: auto;
+      width: 85%;
+      margin-right: 0 auto !important;
+      margin-left:0 auto !important;
+    
+}
+#checkall{
+    padding: 40px 0 !important;
+}
+
   .sochild{
       clear: both;
       display: table;
   }
-  
-  .differs{
-      margin: 15px 80px;
+  .order{
+      margin: 0 auto !important;
   }
+  
   .monty{
       font-size: 1.4em;
-    margin-left: 150px;
-    font-family: Montserrat, sans-serif;
-    font-weight: 600
+      font-family: Montserrat, sans-serif;
+      font-weight: 600
   }
   
 }
@@ -251,9 +273,6 @@ h4  {
         margin: 0 auto !important;
     }
 
-  .first-h{
-      margin:10px 30px;
-  }
   #definitive{
 		font: bold 14px sans-serif;
 	}
@@ -296,8 +315,8 @@ h4  {
     }
 
     /*---------------------------------------------------------About-Us*/
-    #aboutimg{
-        width: 80%;
+    #about{
+        width: 85%;
         height: 120vh !important;
     }
     .ourow{
@@ -307,6 +326,12 @@ h4  {
     }
     .quotes{
         width:80%;
+    }
+    /*---------------------------------------------------------Contact*/
+    #girly{
+        display: block;
+        width: 85%;
+        height: 120vh;
     }
 
 }
