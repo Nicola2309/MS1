@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-	color: #f88629;
+	color: #f89009 !important;
 }
 
 .nav-colored {
@@ -59,7 +59,7 @@ body {
 #so-fresh {
 	vertical-align: middle;
 	border-style: none;
-	max-width: 90%;
+	max-width: 85%;
 	max-height: 500px;
 }
 
@@ -91,12 +91,6 @@ body {
 	max-height: auto;
 }
 
-
-/*.imgdiv{
-    width: 85%;
-    height: 100vh;
-
-}*/
 
 .delyop {
 	height: 500px;

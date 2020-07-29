@@ -1,20 +1,21 @@
 # Bar Gelateria Oasi
 
 ## Code Institute:Milestone Project 1
+![Bar Gelateria Oasi Responsive Design](https://github.com/Nicola2309/MS1/blob/8ea379b5ad542be239d794c02d25ede26422c4c2/assets/img/Responsive-readme-img.png)
 
 *Bar Gelateria Oasi* is a real bar opened in my home village.
-The reason that moved me to make its website is linked to my work experience, that started in that bar when i was 16,
-and i wanted to create a website that is personalized and consistent with the story of the company and its products
+The reason that moved me to make its website is linked to my work experience, that started in that bar when I was 16,
+and I wanted to create a website that is personalized and consistent with the story of the company and its products
 in a way that could be relevant for the customers and with a simple structure easy to navigate in.
 
-As a greedy internet user i really love the encounter with simple and complete websites going straight to the point of my needs 
+As a greedy internet user I really love the encounter with simple and complete websites going straight to the point of my needs 
 and curiosities.
-Thanks to what i learnt during the *Code Institute* course and following the advices of my mentor, Seun Owonikoko,
-i kept a consistent design and structure of the content using the learnt languages HTML5,CSS3 and adding a few lines of JS to have a clearer navbar during the navigation
+Thanks to what I learnt during the *Code Institute* course and following the advices of my mentor, Seun Owonikoko,
+I kept a consistent design and structure of the content using the learnt languages HTML5,CSS3 and adding a few lines of JS to have a clearer navbar during the navigation
 through the readable content.
 The goal was to complete a responsive and interactive website based on the User Experience principles.
 
-This was the first of four Milestone Projects in the Full Stack Web Development Program i am attending at *The Code Institute*.
+This was the first of four Milestone Projects in the Full Stack Web Development Program I am attending at *The Code Institute*.
 
 [Click here to access the complete project.](https://nicola2309.github.io/MS1/)
 
@@ -30,7 +31,7 @@ This was the first of four Milestone Projects in the Full Stack Web Development 
 - To make it easy for the mobile users that visit the bar during the Virus Times by tapping on the shopping-cart and bring them in the Menu page, making them able to make their choice, 
   so the company can avoid to provide Menu's of common use.
 
--To create a responsive design fitting all devices and screen sizes.
+- To create a responsive design fitting all devices and screen sizes.
 
 
 ### Customers' Reviews
