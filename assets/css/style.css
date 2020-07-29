@@ -39,6 +39,9 @@ body {
 .nav-transparent {
 	background-color: rgba(255, 255, 255, 0.6);
 }
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.7);
+}
 
 
 /*------------------------------------------------------------Beloved Images*/
@@ -224,6 +227,13 @@ h4 {
 	#mt-creaty {
 		margin-top: 0 !important;
 	}
+    #about {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 270px;
+    }
 	#ourstory {
 		text-align: center;
 		margin-top: 25px;
@@ -233,8 +243,8 @@ h4 {
 		width: 85%;
 	}
 	.delyop {
-		width: 85%;
-		height: auto;
+		width: 85% !important;
+		height: 320px !important;
 		margin: 0 auto !important;
 	}
 	.differs {
@@ -245,7 +255,7 @@ h4 {
 	}
     #girly {
         display: block;
-		height: auto;
+		height: 255px;
 		width: 85%;
 	}
 	#checkall {
@@ -318,7 +328,7 @@ h4 {
         float: bottom;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .delyop{
         height: 495px;
         width: 495px;
