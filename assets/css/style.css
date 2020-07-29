@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-	color: #000;
+	color: #f88629;
 }
 
 .nav-colored {
@@ -39,8 +39,9 @@ body {
 .nav-transparent {
 	background-color: rgba(255, 255, 255, 0.6);
 }
+
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,0.7);
+	color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -109,8 +110,8 @@ body {
 }
 
 #girly {
-    display: block;
-    width: 85%;
+	display: block;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -202,9 +203,9 @@ h4 {
 /*-------------------------------------------------------------Media-Queries*/
 
 @media screen and (max-width: 600px) {
-    .navbar{
-        padding: 0;
-    }
+	.navbar {
+		padding: 0;
+	}
 	.first-h i {
 		padding: 0 0;
 		display: table;
@@ -227,13 +228,13 @@ h4 {
 	#mt-creaty {
 		margin-top: 0 !important;
 	}
-    #about {
-    display: block;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 270px;
-    }
+	#about {
+		display: block;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 270px;
+	}
 	#ourstory {
 		text-align: center;
 		margin-top: 25px;
@@ -253,8 +254,8 @@ h4 {
 		margin-right: 0 auto !important;
 		margin-left: 0 auto !important;
 	}
-    #girly {
-        display: block;
+	#girly {
+		display: block;
 		height: 255px;
 		width: 85%;
 	}
@@ -324,20 +325,18 @@ h4 {
 	.footer-company-name {
 		text-align: center;
 	}
-    #floater{
-        float: bottom;
-    }
+	#floater {
+		float: bottom;
+	}
 }
+
 @media screen and (min-width: 1024px) {
-    .delyop{
-        height: 495px;
-        width: 495px;
-        margin-left: 0;
-        margin-right: 0;
-
-    }
-
-
+	.delyop {
+		height: 495px;
+		width: 495px;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -352,13 +351,13 @@ h4 {
 		width: 85%;
 		height: auto;
 	}
-    .differs{
-    padding: 0;
-    height: 400px;
-    width: 400px;
-    margin-right: 25px;
-    margin-left: 15px;
-    }
+	.differs {
+		padding: 0;
+		height: 400px;
+		width: 400px;
+		margin-right: 25px;
+		margin-left: 15px;
+	}
 	/*---------------------------------------------------------About-Us*/
 	#about {
 		width: 85%;

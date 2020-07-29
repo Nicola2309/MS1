@@ -55,5 +55,5 @@ This was the first of four Milestone Projects in the Full Stack Web Development 
 
 2. Scope plane: Once decided the users i wanted to be able to reach, i followed the instructions in the course and of my mentor to create a consistent website that could be simple and reliable to navigate : making every page with a similar central opening picture, well structured and consistent widths of the sections, to achieve a smooth scrolling of the content and a form to satisfy special occasion needs.
 
-3. Structure plane : When i knew wich features i wanted for the website i decided to create the pages: -'Home', to welcome the customer with a story of the product and the company's experience.
-                                                                                                       -''
+3. Structure plane : When i knew wich features i wanted for the website i decided to create the pages: - 'Home', to welcome the customer with a story of the product and the company's experience.
+                                                                                                       - ''
