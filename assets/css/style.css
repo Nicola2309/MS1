@@ -150,7 +150,7 @@ h4 {
 	width: 85%;
 	margin-right: auto;
 }
-
+/* code understood from https://www.lambdatest.com/blog/complete-guide-to-cross-browser-compatible-css-gradients/*/
 .icon {
 	background: -moz-linear-gradient(top, #ec1123 40%, #f88629 75%);
 	background: -webkit-linear-gradient(top, #ec1123 40%, #f88629 75%);
