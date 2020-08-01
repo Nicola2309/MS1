@@ -57,6 +57,7 @@ body {
 }
 
 #so-fresh {
+	margin-bottom: 30px;
 	vertical-align: middle;
 	border-style: none;
 	max-width: 85%;
@@ -91,16 +92,11 @@ body {
 	max-height: auto;
 }
 
-
 .delyop {
 	height: 500px;
 	width: 500px;
 	margin-right: 25px;
 	margin-left: 25px;
-}
-
-#checkall {
-	margin: 40px auto;
 }
 
 #girly {
@@ -127,7 +123,8 @@ h4 {
 	text-transform: none;
 }
 
-#pres-par {
+.pres-par {
+	font-size: 2.4em !important;
 	text-align: center;
 	font-family: Oswald, sans-serif;
 	padding: 25px 10px;
@@ -165,15 +162,15 @@ h4 {
 }
 
 .first-h {
-	font-size: 2.2em;
+	margin: 15px;
+	font-size: 2em;
 	font-weight: 500;
 	font-family: Oswald, sans-serif;
 	letter-spacing: 2px;
-	margin: 40px 0;
 }
 
 .monty {
-	margin-top: 20px;
+	margin: 20px auto 40px auto;
 	font-family: Montserrat, sans-serif;
 	font-weight: 600;
 }
@@ -187,10 +184,23 @@ h4 {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-family: 'Oswald', sans-serif;
-	;
 	text-transform: uppercase;
 	padding: 20px 0;
-	font-size: 3em;
+	font-size: 2.2em;
+}
+
+.menu1:hover {
+	background: gold;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+}
+
+.sm-width {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
 }
 
 
@@ -199,6 +209,15 @@ h4 {
 @media screen and (max-width: 600px) {
 	.navbar {
 		padding: 0;
+	}
+	#impact-img {
+		width: 90%;
+	}
+	.pres-par {
+		font-size: 2.2em !important;
+	}
+	.first-h {
+		margin: 0;
 	}
 	.first-h i {
 		padding: 0 0;
@@ -224,18 +243,23 @@ h4 {
 	}
 	#about {
 		display: block;
-		width: 85%;
+		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 		height: 270px;
 	}
-	#ourstory {
+	#team-img {
+		padding: 0 !important;
+	}
+	.ourstory {
+		padding: 0;
+		width: 100%;
 		text-align: center;
 		margin-top: 25px;
 	}
 	#takeaw {
 		display: block;
-		width: 85%;
+		width: 90%;
 	}
 	.delyop {
 		width: 85% !important;
@@ -244,17 +268,13 @@ h4 {
 	}
 	.differs {
 		height: auto;
-		width: 85%;
+		width: 90%;
 		margin-right: 0 auto !important;
 		margin-left: 0 auto !important;
 	}
 	#girly {
 		display: block;
-		height: 255px;
-		width: 85%;
-	}
-	#checkall {
-		padding: 40px 0 !important;
+		width: 90%;
 	}
 	.sochild {
 		clear: both;
@@ -264,13 +284,26 @@ h4 {
 		margin: 0 auto !important;
 	}
 	.monty {
-		font-size: 1.4em;
+		margin: 15px auto 30px auto;
+		font-size: 1.2em;
 		font-family: Montserrat, sans-serif;
 		font-weight: 600
+	}
+	.sm-width {
+		width: 92%;
+		margin: 0 auto;
 	}
 }
 
 @media screen and (max-width: 950px) {
+	#impact-img {
+		margin-bottom: 30px;
+		width: 90%;
+	}
+	.pres-par {
+		margin: 0 auto;
+		width: 92%;
+	}
 	#so-fresh {
 		float: none;
 		text-align: center;
@@ -294,8 +327,16 @@ h4 {
 	}
 	.ourow {
 		position: relative;
-		width: 80%;
+		width: 85%;
 		margin: 0 auto !important;
+	}
+	.pres-par {
+		padding: 0;
+	}
+	.sm-width {
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
 	}
 	#definitive {
 		font: bold 14px sans-serif;
@@ -309,9 +350,6 @@ h4 {
 		margin-bottom: 10px;
 		text-align: center;
 	}
-	#definitive .space i {
-		margin-left: 0;
-	}
 	#moreto {
 		float: none !important;
 		text-align: center;
@@ -319,8 +357,8 @@ h4 {
 	.footer-company-name {
 		text-align: center;
 	}
-	#floater {
-		float: bottom;
+	#grid {
+		text-align: center;
 	}
 }
 
@@ -331,12 +369,35 @@ h4 {
 		margin-left: 0;
 		margin-right: 0;
 	}
+	.differs {
+		margin: 0;
+	}
+	.ourow {
+		margin: 0 auto !important;
+		width: 85%;
+	}
+	#grid {
+		display: grid;
+	}
 }
 
 @media screen and (min-width: 1200px) {
 	#impact-img {
 		width: 85%;
 		height: auto;
+	}
+	#so-fresh {
+		vertical-align: middle;
+		border-style: none;
+		width: 420px;
+		max-height: 600px;
+	}
+	.pres-par {
+		font-size: 2.4em !important;
+	}
+	.first-h {
+		margin: 0;
+		font-size: 2em !important;
 	}
 	.pres-chi {
 		width: 85%;
@@ -404,6 +465,10 @@ h4 {
 	color: inherit;
 }
 
+.order:hover {
+	color: #ff9e00;
+}
+
 .footer-company-name {
 	padding: 10px;
 }
@@ -433,7 +498,7 @@ h4 {
 /*-------------------------------------------------------------Footer-bottom*/
 
 .sochild {
-	margin-top: 15px;
+	margin: 15px;
 	font-size: 40px;
 	display: inline-block;
 	width: 35px;
@@ -443,6 +508,3 @@ h4 {
 	color: #ffffff;
 	text-align: center;
 }
-
-
-/* If you don't want the footer to be responsive, remove these media queries */

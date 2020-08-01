@@ -147,6 +147,8 @@ This project consists of 4 pages accessible from both the navbar and the footer.
     * This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code (as discussed in more detail below).
 - [Smallpdf](https://smallpdf.com/)
     * To merge all the different pdf pages of the menu's in one page per menu.
+- [Azmind](https://azmind.com/bootstrap-footer-templates/)
+    * To get an idea of a footer i would implement.
 
 ## Deployment
 
