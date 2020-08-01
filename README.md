@@ -201,7 +201,8 @@ The content of this website refers to a real company. The website purpose is to 
 Thank you to the following people who helped with support, inspiration and guidance at different stages in the project:
 
 - The guidance and support of my mentor Seun Owonikoko
-- The supportive *Code Institute* community, including my fellow students and the tutor support team
+- The tutor support team
+- The supportive *Code Institute* community, including my fellow students especially [mkthewlis](https://github.com/mkthewlis/Milestone-Project-2) and her amazing README file of wich i've seen the structure and taught me how to make my own better than i could ever imagine.
 - My family and friends for their patience and honest critique throughout
 
 
