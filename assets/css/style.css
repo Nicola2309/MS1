@@ -66,7 +66,10 @@ body {
 
 #team-img {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
+}
+.rounded-circle{
+    margin-bottom: 15px;
 }
 
 .differs {
@@ -222,7 +225,7 @@ h4 {
 	.first-h i {
 		padding: 0 0;
 		display: table;
-		margin: 0 auto !important;
+		margin: 10px auto 0 auto !important;
 	}
 	#so-fresh {
 		float: none;
@@ -435,7 +438,7 @@ h4 {
 }
 
 
-/*-------------------------------------------------------------Footer*/
+/*-------------------------------------------------------------Footer inspired by https://azmind.com/bootstrap-footer-templates/*/
 
 #definitive {
 	margin-right: 0 !important;
