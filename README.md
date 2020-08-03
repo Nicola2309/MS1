@@ -106,9 +106,11 @@ This project consists of 4 pages accessible from both the navbar and the footer.
 
 - A future feature could be adding an extra page informing the user about the Events the company intends to host.
 
-- Implementing deliveries means having routes, another important feature might be having a Google Maps link with the route and names of the cities reached by the delivery service.
+- Implementing deliveries means having routes, and Google Maps link with the names of the cities reached by the delivery service.
 
 - A feature i didn't succed in implementing has been the Datetime Picker from bootstrap, it requires some JavaScript and i am not currently able to use it properly and effectively.
+
+- A linear gradient to copy the colors of the logo's icecream on the icons in the Homepage and the clickable menu's. With tutoring suggestion i found the option of the polyfill to make the changes work on different browsers, but Javascript experience is required, so i just changed the color for now.
 
 ## Technologies Used
 

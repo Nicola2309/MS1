@@ -152,13 +152,8 @@ h4 {
 }
 /* code taken from https://www.lambdatest.com/blog/complete-guide-to-cross-browser-compatible-css-gradients/*/
 .icon {
-	background: -moz-linear-gradient(top, #ec1123 40%, #f88629 75%);
-	background: -webkit-linear-gradient(top, #ec1123 40%, #f88629 75%);
-	background: linear-gradient(to bottom, #ec1123 40%, #f88629 75%);
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: red;
+
 }
 
 .first-h {
@@ -176,13 +171,7 @@ h4 {
 }
 
 .menu1 {
-	background: -moz-linear-gradient(top, #e69f51 40%, #d14046 75%);
-	background: -webkit-linear-gradient(top, #e69f51 40%, #d14046 75%);
-	background: linear-gradient(to bottom, #e69f51 40%, #d14046 75%);
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color:red;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	padding: 20px 0;
