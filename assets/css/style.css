@@ -179,11 +179,8 @@ h4 {
 }
 
 .menu1:hover {
-	background: gold;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
+	color: gold;
+	text-decoration: none;
 }
 
 .sm-width {
