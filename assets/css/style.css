@@ -313,6 +313,11 @@ h4 {
 		-o-text-align: center;
 		-o-margin: 0 auto;
 	}
+    div .pc {
+        margin-left: auto;
+        margin-right: auto;
+        width:85%;
+    }
 	#override {
 		margin-bottom: 0 !important;
 		margin-top: 15px;
@@ -353,6 +358,11 @@ h4 {
 }
 
 @media screen and (min-width: 1024px) {
+    div .pc {
+        margin-left: auto;
+        margin-right: auto;
+        width:88%;
+    }
 	.delyop {
 		height: 495px;
 		width: 495px;
@@ -371,7 +381,7 @@ h4 {
 	}
 	div .footer-company-name {
 		float: right;
-	}
+    }
 }
 
 @media screen and (min-width: 1200px) {
