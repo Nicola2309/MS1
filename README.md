@@ -1,7 +1,7 @@
 # Bar Gelateria Oasi
 
 ## Code Institute:Milestone Project 1
-![Bar Gelateria Oasi Responsive Design](https://github.com/Nicola2309/MS1/blob/master/assets/img/Responsive-readme-img.png)
+![Bar Gelateria Oasi Responsive Design](https://github.com/Nicola2309/MS1/blob/master/assets/img/READMEimgs/Responsive-readme-img.png)
 
 *Bar Gelateria Oasi* is a real bar opened in my home village.
 The reason that moved me to make its website is linked to my work experience, that started in that bar when I was 16,
@@ -28,7 +28,7 @@ This was the first of four Milestone Projects in the Full Stack Web Development 
 
 - To make the website interactive through a form that allows customers with special needs to explain themselves. 
 
-- To make it easy for mobile users wich visit the bar during the Virus Times, making possible for them to tap on the shopping-cart that brings them to the Menu page, choose the products, so the company can avoid to provide printed Menu's of common use.
+- To make it easy for mobile users which visit the bar during the Virus Times, making possible for them to tap on the shopping-cart that brings them to the Menu page, choose the products, so the company can avoid to provide printed Menu's of common use.
 
 - To create a responsive design fitting all devices and screen sizes.
 
@@ -45,9 +45,12 @@ This was the first of four Milestone Projects in the Full Stack Web Development 
 
 #### Regular Customers Comments
 
-- Every time I come to Bolsena for a Summer walk I stop at Bar Oasi, its excellent icecream and the prices of beverage and food, definetly below average, make it my choice every time. Absolutely recommended.
+- I often come to Bolsena and have a walk on its beautiful lakefront. I always stop at Bar Oasi, I find the icecream and drinks just amazing here. And now, I can order what I want directly from its website!
+- I needed a special birthday cake for my daughter. Since I can always rely on Bar Oasi, I contacted them through the website to ask for a personalized cake for her, it was as beautiful as delicious!
 
-- Do not miss the opportunity to have an excellent icecream made with passion and care by David, on the lakefront of Bolsena!
+#### Tablet User
+
+- I browse the web with my iPad, I liked that this website is well proportioned and that i could access the Menu's through a pdf links, which i could download and keep with me.
 
 ### Design Process
 
@@ -57,14 +60,24 @@ This was the first of four Milestone Projects in the Full Stack Web Development 
 
 3. Structure plane: When I knew wich features I wanted for the website I decided to create the pages: 'Home', to welcome the customer with a story of the product and the company's experience. 'Abou Us' to provide a background history of the staff and the company, plus the customers' comments about the company, I found it logic. 'Menu&Delivery' to store Menu's and different products pictures. 'Contacts' to actually contact the company for general questions or specific needs.
 
-4. Skeleton Plane: Since the website had to be simple to navigate, I decided to add a copy of the navigation element in the footer as well, so that any user can eaily find them once the content is finished and head to the site part is interested in, moving free in the website and choosing where to go next. Thinking about simplifying i came up with the idea of the shopping-cart for mobile users and its specific function.
+4. Skeleton Plane: Since the website had to be simple to navigate, I opted for a sticky navbar. Thinking about simplifying i came up with the idea of the shopping-cart for mobile users and its specific function.
 
 5. Surface Plane: 
     * To achieve my goals I knew I had to impress the user with nice image and create short pages that don't require much time and effort to scroll and absorb their content. With this idea my will was to avoid losing the user attention in text walls or into too colourful layouts that demands cognitive effort to be processed, effort that most people are not interested in using for a company website. 
-    * I started a wokspace on [Figma](https://www.figma.com/file/jc8QKDwQCQ1ecvrTFuogfB/Untitled?node-id=12%3A0) to experiment my ideas with my wireframe.
+    * I started a wokspace on [Figma](https://www.figma.com/file/jc8QKDwQCQ1ecvrTFuogfB/MS1?node-id=12%3A0) to experiment my ideas with my wireframe.
     * Next came the need to find a compatible pair of fonts on Google Fonts. I searched for fonts to give a sense of confidence and clarity to the text without appearing too formal. I opted for Montserrat for the content and Oswald for the titles.
     * Once the Wireframe was clear enough to start coding around it I began experimenting structures and layouts. This tool has been fundamental to remind the structure I thought for the website and get back to it everytime the variations thought in the coding process were exceeding the limit.
 
+### Wireframing my project on Figma
+
+Design for mobile devices:
+![My responsive design for desktop devices](https://github.com/Nicola2309/MS1/blob/master/assets/img/READMEimgs/figma-desktop-wireframe.png)
+
+Design for tablet devices:
+![My responsive design for tablet devices](https://github.com/Nicola2309/MS1/blob/master/assets/img/READMEimgs/figma-tablet-wireframe.png)
+
+Design for mobile devices:
+![My responsive design for mobile devices](https://github.com/Nicola2309/MS1/blob/master/assets/img/READMEimgsfigma-mobile-wireframe.png)
 
 ## Features
 
@@ -81,7 +94,7 @@ This project consists of 4 pages accessible from both the navbar and the footer.
 
 - The user sees an icecream on a fresh fruit plate with a green background, having clear what's the center of the website.
 - The user reads then the evolution of the product in years of work and experience.
-- In the last section the characteristics and Filosophy of the company are summed up in 4 points. The user can continue the navigation from the footer or the navbar.
+- In the last section the characteristics and Philosophy of the company are summed up in 4 points. The user can continue the navigation from the footer or the navbar.
 
 #### About Us
 
@@ -149,8 +162,14 @@ This project consists of 4 pages accessible from both the navbar and the footer.
     * This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code (as discussed in more detail below).
 - [Smallpdf](https://smallpdf.com/)
     * To merge all the different pdf pages of the menu's in one page per menu.
+- [Websiteplanet](https://www.websiteplanet.com/it/webtools/imagecompressor/)
+    * To compress large image files.
 - [Azmind](https://azmind.com/bootstrap-footer-templates/)
-    * To get an idea of a footer i would implement.
+    * To get an idea of a footer I would implement.
+
+## Testing
+
+Please view the complete testing process in this separate document [here](https://github.com/Nicola2309/MS1/blob/master/testing.md)
 
 ## Deployment
 
@@ -204,7 +223,7 @@ Thank you to the following people who helped with support, inspiration and guida
 
 - The guidance and support of my mentor Seun Owonikoko
 - The tutor support team
-- The supportive *Code Institute* community, including my fellow students especially [mkthewlis](https://github.com/mkthewlis/Milestone-Project-2) and her amazing README file of wich i've seen the structure and taught me how to make my own better than i could ever imagine.
+- The supportive *Code Institute* community, including my fellow students especially [mkthewlis](https://github.com/mkthewlis/Milestone-Project-2) and her amazing README file of wich I've seen the structure and taught me how to make my own better than I could ever imagine.
 - My family and friends for their patience and honest critique throughout
 
 
