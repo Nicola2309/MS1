@@ -195,16 +195,30 @@ h4 {
 
 /*-------------------------------------------------------------Media-Queries*/
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
 	#girly {
-		height: 260px !important;
-	}
+		height: 222px!important;
+    }
+	#about {
+		height: 222px!important;
+    }
+
+}@media screen and (max-width: 380px) {
+	#girly {
+		height: 239px;
+    }
+	#about {
+		height: 239px;
+    }
 }
 
 @media screen and (max-width: 600px) {
 	.navbar {
 		padding: 0;
-	}
+    }
+    .navbar-nav .navbar-item{
+        padding-left: 12px;
+    }
 	#impact-img {
 		width: 90%;
 	}
@@ -241,7 +255,6 @@ h4 {
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-		height: 260px;
 	}
 	#team-img {
 		padding: 0 !important;
@@ -249,9 +262,8 @@ h4 {
 	.ourstory {
 		padding: 0;
 		width: 100%;
-		text-align: center;
 		margin-top: 25px;
-	}
+    }
 	#takeaw {
 		display: block;
 		width: 90%;
@@ -267,7 +279,6 @@ h4 {
 		margin: 0 auto !important;
 	}
 	#girly {
-		height: 300px;
 		display: block;
 		width: 90%;
 	}
@@ -322,10 +333,8 @@ h4 {
 		margin-bottom: 0 !important;
 		margin-top: 15px;
 	}
-	#ourstory {
-		margin-top: 25px;
-	}
 	.ourow {
+        text-align: center;
 		position: relative;
 		width: 85%;
 		margin: 0 auto !important;
@@ -373,6 +382,7 @@ h4 {
 		margin: 0;
 	}
 	.ourow {
+        text-align: center !important;
 		margin: 0 auto !important;
 		width: 85%;
 	}
@@ -422,6 +432,7 @@ h4 {
 		height: auto;
 	}
 	.ourow {
+        text-align: center !important;
 		position: relative;
 		width: 80%;
 		margin: 0 auto !important;
@@ -439,7 +450,6 @@ h4 {
 
 @media screen and (min-width: 1366px) and (max-height: 1012px) {
 	#impact-img {
-		height: 100vh;
 		width: 80%;
 	}
 	.pres-chi {
@@ -449,18 +459,16 @@ h4 {
 		width: 80%;
 	}
 	#about {
-		height: 100vh;
 		width: 80%;
 	}
 	#takeaw {
-		height: 100vh;
+        height: 115vh;
 		width: 80%;
 	}
 	.delyop {
 		width: 64% !important;
 	}
 	#girly {
-		height: 100vh;
 		width: 80%;
 	}
 }
